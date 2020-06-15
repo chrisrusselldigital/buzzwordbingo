@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Buzzword Bingo</title>
+    <link rel="stylesheet" type="text/css" href="buzzwords.css">
+
+  </head>
+  <body>
+    <h1>Buzzword Bingo</h1>
+    <p>Enter 6 buzzwords to play buzzword bingo.</p>
+    <form onSubmit="readBuzzword('word'); return false;">
+      Enter buzzword:
+      <input type="text" name="keyword" id="word" placeholder="enter your buzzword">
+      <input type="submit" name="button" value="Enter Keyword"></input>
+  </form>
+<ol id="words" border = 1></ol><br/>
+
+<button id="clear" onClick="clearBuzzwordContainer();">New Game</button>
+
+    <script type="text/javascript" src="buzzword.js"></script>
+  </body>
+</html>

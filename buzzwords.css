@@ -1,0 +1,10 @@
+ol {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+list-style: none;
+}
+
+ol >li {
+width: calc(100% / 3);
+}
