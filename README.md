@@ -23,12 +23,13 @@ I also wanted to demonstrate building a product in an "agile" manner.
 
 ## Future Features
 
-- GTM/Google Analytics
+- ~~GTM/Google Analytics~~
+  * Basic GTM container, GA basic pageview
 - Change checkboxes to css strikethrough
 - Add css design
 - Add a domain
 - Prevent the start of a game, until there are x number of keywords
 - Add front end tests with Cypress
 - Add Unit tests with Jasmine
-- Make JS OOO
+- Make JS Object Oriented
 - Remove direct JS function calls in HTML
