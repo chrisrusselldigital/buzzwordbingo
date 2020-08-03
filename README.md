@@ -23,9 +23,11 @@ I also wanted to demonstrate building a product in an "agile" manner.
 
 ## Future Features
 
+- Add (fix) favicon
 - ~~GTM/Google Analytics~~
   * Basic GTM container, GA basic pageview
 - Change checkboxes to css strikethrough
+- Add delay to end of game alert, after final checkbox is completed
 - Add css design
 - Add a domain
 - Prevent the start of a game, until there are x number of keywords

@@ -21,17 +21,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
+
+<!-- text -->
+
     <h1>Buzzword Bingo</h1>
     <p>Enter 6 buzzwords to play buzzword bingo.</p>
+
+<!-- Game starts here -->
+
     <form onSubmit="readBuzzword('word'); return false;">
+
       Enter buzzword:
       <input type="text" name="keyword" id="word" placeholder="enter your buzzword">
       <input type="submit" name="button" value="Enter Keyword"></input>
   </form>
-<ol id="words" border = 1></ol><br/>
+
+<ol id="words" onClick="strikeWordThrough();"></ol><br/>
+
+<!-- New game -->
 
 <button id="clear" onClick="clearBuzzwordContainer();">New Game</button>
 
     <script type="text/javascript" src="buzzword.js"></script>
+
   </body>
 </html>

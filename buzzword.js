@@ -1,34 +1,44 @@
 var buzzwordsContainer = [];
-var checks = [];
+var checks = 0;
 
+//Add the buzzwords
 function readBuzzword(keyword) {
 
   if (buzzwordsContainer.length < 6) {
 
-  buzzwordsContainer.push(document.getElementById(keyword).value);
+    buzzwordsContainer.push(document.getElementById(keyword).value);
 
-  document.getElementById("words").innerHTML = '';
+    document.getElementById("words").innerHTML = '';
 
     for (var i in buzzwordsContainer) {
-      document.getElementById("words").innerHTML += "<li>" + buzzwordsContainer[i] + "  <input type='checkbox' id='checked' onClick='checkboxes();'> " + "</li>" ;
+      document.getElementById("words").innerHTML += "<li>" + buzzwordsContainer[i] + "</div>" + "</li>";
     }
-
   }
+
   else {
-    alert("Each game can contain 6 buzzwords");
+    alert("No more than 6 words");
   }
 }
 
-function checkboxes() {
-  if (document.getElementById('checked').checked === true) {
-    checks.push("x");
-    console.log(checks);
-    if (checks.length === 6) {
-      alert("BINGO!");
-    }
+
+//something in this function about when a keyword is struck, a strikethrough occurs
+
+//strike a word out
+function strikeWordThrough(gameWord) {
+  for (var i = 0; i < buzzwordsContainer.length; i++) {
+    gameWord = buzzwordsContainer[i];
+    gameWord.onClick(alert("hi"));
   }
+
 }
 
+
+//All words struck out
+
+
+
+
+//New game
 function clearBuzzwordContainer() {
   location.reload();
 }
