@@ -25,7 +25,8 @@ I also wanted to demonstrate building a product in an "agile" manner.
 
 - Add (fix) favicon
 - ~~GTM/Google Analytics~~
-  * Basic GTM container, GA basic pageview
+  ~~* Basic GTM container, GA basic pageview~~
+- Add buzzwords to GA custom dimensions
 - Change checkboxes to css strikethrough
 - Add delay to end of game alert, after final checkbox is completed
 - Add css design
