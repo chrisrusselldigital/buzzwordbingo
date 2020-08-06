@@ -1,3 +1,4 @@
+var list = document.getElementsByTagName("li");
 var buzzwordsContainer = [];
 var checks = 0;
 
@@ -11,7 +12,7 @@ function readBuzzword(keyword) {
     document.getElementById("words").innerHTML = '';
 
     for (var i in buzzwordsContainer) {
-      document.getElementById("words").innerHTML += "<li>" + buzzwordsContainer[i] + "</div>" + "</li>";
+      document.getElementById("words").innerHTML += "<li id = " + [i] + ">" + buzzwordsContainer[i] + "</div>" + "</li>";
     }
   }
 
@@ -20,21 +21,20 @@ function readBuzzword(keyword) {
   }
 }
 
-
-//something in this function about when a keyword is struck, a strikethrough occurs
-
-//strike a word out
-function strikeWordThrough(gameWord) {
-  for (var i = 0; i < buzzwordsContainer.length; i++) {
-    gameWord = buzzwordsContainer[i];
-    gameWord.onClick(alert("hi"));
+function strikeWordThrough() {
+  if (this.style.textDecoration !== "line-through" ) {
+    this.style.textDecoration = "line-through";
+  } else {
+    this.style.textDecoration = "normal";
   }
 
 }
 
-
-//All words struck out
-
+function strike() {
+  for (var i = 0; i < list.length; i++) {
+    list[i].onclick = strikeWordThrough;
+  }
+}
 
 
 

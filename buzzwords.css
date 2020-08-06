@@ -1,4 +1,4 @@
-ol {
+ul {
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -6,10 +6,10 @@ list-style: none;
 cursor: pointer;
 }
 
-ol > li {
+ul > li {
 width: calc(100% / 3);
 }
 
-#crossout {
+.crossout {
   text-decoration: line-through;
 }
