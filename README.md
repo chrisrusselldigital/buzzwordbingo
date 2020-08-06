@@ -37,7 +37,7 @@ I also wanted to demonstrate building a product in an "agile" manner.
 
 ## Future Features
 
-- Fix favicon
+- ~~Fix favicon~~
 - ~~GTM/Google Analytics~~
 - ~~Basic GTM container~~
 - ~~GA pageview~~
