@@ -42,7 +42,7 @@ I also wanted to demonstrate building a product in an "agile" manner.
 - ~~Basic GTM container~~
 - ~~GA pageview~~
 - Add buzzwords to GA custom dimensions
-- Change checkboxes to css strikethrough
+- ~~Change checkboxes to css strikethrough~~
 - Add delay to end of game alert, after final checkbox is completed
 - Add css design
 - Add a domain
