@@ -32,7 +32,7 @@ I also wanted to demonstrate building a product in an "agile" manner.
 
 - ~~Submit 6 buzzwords~~
 - ~~Display buzzword on page~~
-- Cross buzzwords off one by one
+- ~~Cross buzzwords off one by one~~
 - Once all buzzwords have been crossed off the game is over
 
 ## Future Features
