@@ -19,6 +19,7 @@ I also wanted to demonstrate building a product in an "agile" manner.
 - Guide to git: https://rogerdudler.github.io/git-guide/
 
 #### Other stuff
+
 - Favicon generator: https://favicon.io/
 
 
@@ -38,11 +39,12 @@ I also wanted to demonstrate building a product in an "agile" manner.
 ## Future Features
 
 - ~~Fix favicon~~
+- ~~Change checkboxes to css strikethrough~~
 - ~~GTM/Google Analytics~~
 - ~~Basic GTM container~~
 - ~~GA pageview~~
+- Use unobtrusive JS
 - Add buzzwords to GA custom dimensions
-- ~~Change checkboxes to css strikethrough~~
 - Add delay to end of game alert, after final checkbox is completed
 - Add css design
 - Add a domain
