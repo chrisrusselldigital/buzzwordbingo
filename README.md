@@ -1,5 +1,6 @@
 # Buzzword bingo
 
+Visit Buzzword Bingo at: https://buzzwordbingo.herokuapp.com/
 
 ## Background
 
@@ -28,29 +29,29 @@ After hearing the same corporate buzzwords, over and over again, I wanted to:
 #### Learning and mindset
 
 - Having someone who's expecting things to get done is super valuable
-- Taking some time off can increase 'ah-ha' moments
-
+- Taking some time off writing code can increase 'ah-ha' moments
 
 ## Features at launch
 
-- ~~Submit 6 buzzwords~~
-- ~~Display buzzword on page~~
-- ~~Cross buzzwords off one by one~~
-- Once all buzzwords have been crossed off the game is over
+- [x] Submit 6 buzzwords
+- [x] Display buzzword on page
+- [x] Cross buzzwords off one by one
+- [x] Once all buzzwords have been crossed off the game is over
 
 ## Future Features
 
-- Create Trello board to list new features
 - [x] Fix favicon
 - [x] Change checkboxes to css strikethrough
 - [x] GTM/Google Analytics
 - [x] Basic GTM container
 - [x] GA pageview
+- Fix odd CSS onClick behaviour
+- Create Trello board to list and prioritise new features
+- Add a domain
 - Use unobtrusive JS
 - Add buzzwords to GA custom dimensions
 - Add delay to end of game alert, after final checkbox is completed
 - Add css design
-- Add a domain
 - Prevent the start of a game until there are 6 number of keywords
 - Add front end tests with Cypress
 - Add Unit tests with Jasmine
