@@ -3,9 +3,11 @@
 
 ## Background
 
-After hearing the same corporate buzzwords, over and over again, I wanted to create a product I could share with my work colleagues as a bit of fun but also to hopefully remove some corporate flannel.
+After hearing the same corporate buzzwords, over and over again, I wanted to:
 
-I also wanted to demonstrate building a product in an "agile" manner.
+- Create a product I could share with my work colleagues as a bit of fun but also to hopefully remove some corporate flannel
+- End-to-end product development (see below)
+- Demonstrate building a product in an "agile" manner
 
 ***
 
@@ -39,11 +41,11 @@ I also wanted to demonstrate building a product in an "agile" manner.
 ## Future Features
 
 - Create Trello board to list new features
-- ~~Fix favicon~~
-- ~~Change checkboxes to css strikethrough~~
-- ~~GTM/Google Analytics~~
-- ~~Basic GTM container~~
-- ~~GA pageview~~
+- [x] Fix favicon
+- [x] Change checkboxes to css strikethrough
+- [x] GTM/Google Analytics
+- [x] Basic GTM container
+- [x] GA pageview
 - Use unobtrusive JS
 - Add buzzwords to GA custom dimensions
 - Add delay to end of game alert, after final checkbox is completed
@@ -56,5 +58,9 @@ I also wanted to demonstrate building a product in an "agile" manner.
 - Remove direct JS function calls in HTML
 
 ## Product design
+
+- Develop a software product
+- implement data tools (dataLayer & Google Analytics), once there's enough data, stream that data into something like BigQuery and analyse using (for example) Python
+- Add the "why" of each aspect of the product
 
 ![buzzwordbingo product design](https://github.com/chrisrusselldigital/buzzwordbingo/blob/master/product-design.jpg)
