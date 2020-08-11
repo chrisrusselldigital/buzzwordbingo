@@ -7,7 +7,7 @@ Visit Buzzword Bingo at: https://buzzwordbingo.herokuapp.com/
 After hearing the same corporate buzzwords, over and over again, I wanted to:
 
 - Create a product I could share with my work colleagues as a bit of fun but also to hopefully remove some corporate flannel
-- End-to-end product development ([see below])(https://github.com/chrisrusselldigital/buzzwordbingo#product-design)
+- End-to-end product development [see below](https://github.com/chrisrusselldigital/buzzwordbingo#product-design)
 - Demonstrate building a product in an "agile" manner
 
 ***
