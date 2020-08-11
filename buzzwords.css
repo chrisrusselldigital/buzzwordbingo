@@ -9,7 +9,3 @@ cursor: pointer;
 ul > li {
 width: calc(100% / 3);
 }
-
-.crossout {
-  text-decoration: line-through;
-}

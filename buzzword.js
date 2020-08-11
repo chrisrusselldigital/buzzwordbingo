@@ -1,6 +1,6 @@
 var list = document.getElementsByTagName("li");
 var buzzwordsContainer = [];
-var checks = 0;
+var checks = [];
 
 //Add the buzzwords
 function readBuzzword(keyword) {
@@ -12,7 +12,7 @@ function readBuzzword(keyword) {
     document.getElementById("words").innerHTML = '';
 
     for (var i in buzzwordsContainer) {
-      document.getElementById("words").innerHTML += "<li id = " + [i] + ">" + buzzwordsContainer[i] + "</div>" + "</li>";
+      document.getElementById("words").innerHTML += "<li>" + buzzwordsContainer[i] + "</div>" + "</li>";
     }
   }
 
@@ -27,7 +27,19 @@ function strikeWordThrough() {
   } else {
     this.style.textDecoration = "normal";
   }
+}
 
+
+function clickCounter() {
+  for (var i = 0; i < list.length; i++) {
+    if (list[i].style.textDecoration === "line-through" && !checks.includes(list[i].innerHTML)) {
+      checks.push(list[i].innerHTML)
+      console.log(checks);
+    }
+  }
+  if (checks.length === 6) {
+    alert("bingo");
+  }
 }
 
 function strike() {
@@ -35,8 +47,6 @@ function strike() {
     list[i].onclick = strikeWordThrough;
   }
 }
-
-
 
 //New game
 function clearBuzzwordContainer() {
