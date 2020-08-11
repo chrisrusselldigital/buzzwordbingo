@@ -28,7 +28,7 @@ After hearing the same corporate buzzwords, over and over again, I wanted to:
 
 #### Learning and mindset
 
-- Having someone who's expecting things to get done is super valuable
+- Having someone who's expecting things to get done is super valuable (thanks to https://github.com/Kevinjohn)
 - Taking some time off writing code can increase 'ah-ha' moments
 
 ## Features at launch
