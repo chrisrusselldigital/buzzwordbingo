@@ -40,25 +40,14 @@ After hearing the same corporate buzzwords, over and over again, I wanted to:
 
 ## Future Features
 
+For new features, please see [Trello board](https://trello.com/b/RHlIb3jD/buzzword-bingo)
+
+- [x] Create Trello board to list and prioritise new features
 - [x] Fix favicon
 - [x] Change checkboxes to css strikethrough
 - [x] GTM/Google Analytics
 - [x] Basic GTM container
 - [x] GA pageview
-- Add a cookie banner
-- Fix odd CSS onClick behaviour (where user isn't able to click a buzzword one the first go)
-- increase buzzword font size
-- Create Trello board to list and prioritise new features
-- Add a domain
-- Add Ads
-- Use unobtrusive JS (e.g. remove direct JS function calls in HTML)
-- Add buzzwords to a custom dimension in Google Analytics
-- Add delay to end of game alert, after final checkbox is completed
-- Add css design
-- Prevent the start of a game until there are 6 number of keywords
-- Add front end tests with Cypress
-- Add Unit tests with Jasmine
-- Make JS Object Oriented
 
 ## Product design
 
