@@ -57,5 +57,4 @@ I also wanted to demonstrate building a product in an "agile" manner.
 
 ## Product design
 
-![buzzwordbingo product design]
-(https://github.com/chrisrusselldigital/buzzwordbingo/blob/master/product-design.jpg)
+![buzzwordbingo product design](https://github.com/chrisrusselldigital/buzzwordbingo/blob/master/product-design.jpg)
