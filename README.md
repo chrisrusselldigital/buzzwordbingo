@@ -9,7 +9,7 @@ I also wanted to demonstrate building a product in an "agile" manner.
 
 ***
 
-### Stuff worth noting/I've learned
+## Stuff worth noting/I've learned
 
 #### Tech stuff
 
@@ -38,6 +38,7 @@ I also wanted to demonstrate building a product in an "agile" manner.
 
 ## Future Features
 
+- Create Trello board to list new features
 - ~~Fix favicon~~
 - ~~Change checkboxes to css strikethrough~~
 - ~~GTM/Google Analytics~~
@@ -53,3 +54,8 @@ I also wanted to demonstrate building a product in an "agile" manner.
 - Add Unit tests with Jasmine
 - Make JS Object Oriented
 - Remove direct JS function calls in HTML
+
+## Product design
+
+![buzzwordbingo product design]
+(https://github.com/chrisrusselldigital/buzzwordbingo/blob/master/product-design.jpg)
