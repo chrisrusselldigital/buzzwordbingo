@@ -45,18 +45,18 @@ After hearing the same corporate buzzwords, over and over again, I wanted to:
 - [x] GTM/Google Analytics
 - [x] Basic GTM container
 - [x] GA pageview
-- Fix odd CSS onClick behaviour
+- Fix odd CSS onClick behaviour (where user isn't able to click a buzzword one the first go)
+- increase buzzword font size
 - Create Trello board to list and prioritise new features
 - Add a domain
-- Use unobtrusive JS
-- Add buzzwords to GA custom dimensions
+- Use unobtrusive JS (e.g. remove direct JS function calls in HTML)
+- Add buzzwords to a custom dimension in Google Analytics
 - Add delay to end of game alert, after final checkbox is completed
 - Add css design
 - Prevent the start of a game until there are 6 number of keywords
 - Add front end tests with Cypress
 - Add Unit tests with Jasmine
 - Make JS Object Oriented
-- Remove direct JS function calls in HTML
 
 ## Product design
 
