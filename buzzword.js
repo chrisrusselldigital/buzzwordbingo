@@ -29,7 +29,6 @@ function strikeWordThrough() {
   }
 }
 
-
 function clickCounter() {
   for (var i = 0; i < list.length; i++) {
     if (list[i].style.textDecoration === "line-through" && !checks.includes(list[i].innerHTML)) {
@@ -38,7 +37,7 @@ function clickCounter() {
     }
   }
   if (checks.length === 6) {
-    alert("bingo");
+    alert("Buzzword bingo!");
   }
 }
 
