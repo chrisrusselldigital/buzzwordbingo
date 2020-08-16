@@ -12,7 +12,7 @@ function readBuzzword(keyword) {
     document.getElementById("words").innerHTML = '';
 
     for (var i in buzzwordsContainer) {
-      document.getElementById("words").innerHTML += "<li>" + buzzwordsContainer[i] + "</div>" + "</li>";
+      document.getElementById("words").innerHTML += "<li>" + buzzwordsContainer[i] + "</li>";
     }
   }
 
@@ -32,7 +32,7 @@ function strikeWordThrough() {
 function clickCounter() {
   for (var i = 0; i < list.length; i++) {
     if (list[i].style.textDecoration === "line-through" && !checks.includes(list[i].innerHTML)) {
-      checks.push(list[i].innerHTML)
+      checks.push(list[i].innerHTML);
       console.log(checks);
     }
   }
