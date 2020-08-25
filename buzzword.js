@@ -12,7 +12,7 @@ function readBuzzword(keyword) {
     document.getElementById("words").innerHTML = '';
 
     for (var i in buzzwordsContainer) {
-      document.getElementById("words").innerHTML += "<li>" + buzzwordsContainer[i] + "</li>";
+      document.getElementById("words").innerHTML += "<li>" + buzzwordsContainer[i] + "</div>" + "</li>";
     }
   }
 
@@ -31,10 +31,11 @@ function strikeWordThrough() {
 
 function clickCounter() {
   for (var i = 0; i < list.length; i++) {
-    if (list[i].style.textDecoration === "line-through" && !checks.includes(list[i].innerHTML)) {
-      checks.push(list[i].innerHTML);
+    if (list[i].style.textDecoration === "line-through" && !checks.includes(list[i])) {
+      checks.push(list[i])
       console.log(checks);
     }
+
   }
   if (checks.length === 6) {
     alert("Buzzword bingo!");
