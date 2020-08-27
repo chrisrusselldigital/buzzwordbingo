@@ -12,7 +12,7 @@ function readBuzzword(keyword) {
     document.getElementById("words").innerHTML = '';
 
     for (var i in buzzwordsContainer) {
-      document.getElementById("words").innerHTML += "<li>" + buzzwordsContainer[i] + "</div>" + "</li>";
+      document.getElementById("words").innerHTML += "<li onclick=strike(this);>" + buzzwordsContainer[i] + "</div>" + "</li>";
     }
   }
 
@@ -21,11 +21,12 @@ function readBuzzword(keyword) {
   }
 }
 
-function strikeWordThrough() {
-  if (this.style.textDecoration !== "line-through" ) {
-    this.style.textDecoration = "line-through";
+
+function strike(ele) {
+  if (ele.style.textDecoration !== "line-through" ) {
+    ele.style.textDecoration = "line-through";
   } else {
-    this.style.textDecoration = "normal";
+    ele.style.textDecoration = "normal";
   }
 }
 
@@ -42,11 +43,6 @@ function clickCounter() {
   }
 }
 
-function strike() {
-  for (var i = 0; i < list.length; i++) {
-    list[i].onclick = strikeWordThrough;
-  }
-}
 
 //New game
 function clearBuzzwordContainer() {
