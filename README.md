@@ -60,7 +60,7 @@ For new features, please see [Trello board](https://trello.com/b/RHlIb3jD/buzzwo
 ## A neater version...
 
 |               | Website       | Analytics implementation | Pipeline  | Reporting          |
-|               | ------------- | ------------------------ | --------- | ------------------ |
+| ------------- | ------------- | ------------------------ | --------- | ------------------ |
 | Things        | HTML          | Google Analytics         | BigQuery  | Python             |
 | to            | CSS           | Google Tag Manager       |   SQL     | Jupyter            |
 | learn/do      | JS            | dataLayer                |           | Google Data Studio |
