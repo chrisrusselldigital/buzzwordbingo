@@ -56,3 +56,13 @@ For new features, please see [Trello board](https://trello.com/b/RHlIb3jD/buzzwo
 - Add the "why" of each aspect of the product
 
 ![buzzwordbingo product design](https://github.com/chrisrusselldigital/buzzwordbingo/blob/master/product-design.jpg)
+
+## A neater version...
+
+|               | Website       | Analytics implementation | Pipeline  | Reporting          |
+|               | ------------- | ------------------------ | --------- | ------------------ |
+| Things        | HTML          | Google Analytics         | BigQuery  | Python             |
+| to            | CSS           | Google Tag Manager       |   SQL     | Jupyter            |
+| learn/do      | JS            | dataLayer                |           | Google Data Studio |
+|               | Heroku        | Custom Dimensions        |           |                    |
+|               | Git/Github    |                          |           |                    |
