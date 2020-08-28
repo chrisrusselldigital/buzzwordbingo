@@ -63,6 +63,6 @@ For new features, please see [Trello board](https://trello.com/b/RHlIb3jD/buzzwo
 | ------------- | ------------- | ------------------------ | --------- | ------------------ |
 | Things        | HTML          | Google Analytics         | BigQuery  | Python             |
 | to            | CSS           | Google Tag Manager       |   SQL     | Jupyter            |
-| learn/do      | JS            | dataLayer                |           | Google Data Studio |
+| learn/do      | JS / DOM      | dataLayer                |           | Google Data Studio |
 |               | Heroku        | Custom Dimensions        |           |                    |
 |               | Git/Github    |                          |           |                    |

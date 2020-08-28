@@ -2,6 +2,8 @@ var list = document.getElementsByTagName("li");
 var buzzwordsContainer = [];
 var checks = [];
 
+window.dataLayer = window.dataLayer || [];
+
 //Add the buzzwords
 function readBuzzword(keyword) {
 
@@ -39,6 +41,10 @@ function clickCounter() {
 
   }
   if (checks.length === 6) {
+    dataLayer.push({
+      'buzzwords': buzzwordsContainer
+    });
+    console.log(dataLayer);
     alert("Buzzword bingo!");
   }
 }
