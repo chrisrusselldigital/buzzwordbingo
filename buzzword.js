@@ -42,7 +42,8 @@ function clickCounter() {
   }
   if (checks.length === 6) {
     dataLayer.push({
-      'buzzwords': buzzwordsContainer
+      'buzzwords': buzzwordsContainer,
+      'event': 'buzzwordsAdded'
     });
     console.log(dataLayer);
     alert("Buzzword bingo!");
