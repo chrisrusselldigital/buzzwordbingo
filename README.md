@@ -20,6 +20,7 @@ After hearing the same corporate buzzwords, over and over again, I wanted to:
 - Writing good commit messages: https://chris.beams.io/posts/git-commit/
 - Git README.md markdown: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 - Guide to git: https://rogerdudler.github.io/git-guide/
+- Adding cool icons to git commits https://gist.github.com/rxaviers/7360908
 
 #### Other stuff
 
