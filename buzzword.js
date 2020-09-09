@@ -27,7 +27,7 @@ function readBuzzword(keyword) {
 function strike(ele) {
   if (ele.style.textDecoration !== "line-through" ) {
     ele.style.textDecoration = "line-through";
-    ele.style.color = "purple";
+    ele.style.color = "#8A2BE2";
   } else {
     ele.style.textDecoration = "normal";
   }
@@ -43,7 +43,7 @@ function clickCounter() {
   }
   if (checks.length === 6) {
     dataLayer.push({
-      'buzzwords': buzzwordsContainer,
+      'buzzwords': buzzwordsContainer.toString(),
       'event': 'buzzwordsAdded'
     });
     console.log(dataLayer);
