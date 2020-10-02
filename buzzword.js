@@ -25,7 +25,7 @@ function readBuzzword(keyword) {
 
 
 function strike(ele) {
-  if (ele.style.textDecoration !== "line-through" ) {
+  if ((buzzwordsContainer.length === 6) && (ele.style.textDecoration !== "line-through")) {
     ele.style.textDecoration = "line-through";
     ele.style.color = "#8A2BE2";
   } else {
