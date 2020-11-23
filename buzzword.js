@@ -23,7 +23,6 @@ function readBuzzword(keyword) {
   }
 }
 
-
 function strike(ele) {
   if ((buzzwordsContainer.length === 6) && (ele.style.textDecoration !== "line-through")) {
     ele.style.textDecoration = "line-through";
