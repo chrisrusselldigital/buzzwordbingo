@@ -15,7 +15,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="stylesheet" type="text/css" href="buzzwords.css">
     <link rel='icon' href='favicon.ico' type='image/x-icon'/>
   </head>
-  <body>
+  <body onload="readBuzzword();">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSR6B9S"
@@ -24,30 +24,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-    <h1>Buzzword Bingo</h1>
-    <p>Enter 6 buzzwords to play buzzword bingo.<br/>
-    Click each word once you hear it.<br/>
+    <h1>Generic corporate Buzzword Bingo</h1>
+    <p>Click each word once you hear it.<br/>
     Once all 6 are checked...bingo!<br/>
-    Click "New Game" to start again.</p>
 
 <!-- Game starts here -->
 
-    <form onSubmit="readBuzzword('word'); return false;">
 
-      <input type="text" name="keyword" id="word" onfocus="this.value=''" placeholder="Enter your buzzword" >
-      <input type="submit" name="button" value="Enter Keyword"></input>
-  </form>
-
-<ul id="words" onClick="clickCounter();"></ul>
+<ul id="words"  onClick="clickCounter();"></ul>
 
 <!-- New game -->
 
-<button id="clear" onClick="clearBuzzwordContainer();">New Game</button>
+<button id="clear" onClick="clearBuzzwordContainer();">Play again</button>
 <br/>
 <br/>
-<br/>
+<p><a href="/">Make your own buzzword game ></a> | <a href="/corporate-buzzwords.html"> Generic corporate buzzword bingo ></a></p>
 <p><a href="https://medium.com/@_chris_russell/buzzword-bingo-1cdb29e6509e">Why I built Buzzword Bingo</a></p>
-    <script type="text/javascript" src="buzzword.js"></script>
+    <script type="text/javascript" src="corporateBuzzwords.js"></script>
     <script type="text/javascript" id="cookiebanner"
     src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js"
     data-bg="#8A2BE2"></script>
