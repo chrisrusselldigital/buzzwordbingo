@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NSR6B9S');</script>
+<!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+    <title>Buzzword Bingo</title>
+    <meta name="description" content="Play COVID 19 buzzword bingo. Unprecedented times.">
+    <link rel="stylesheet" type="text/css" href="buzzwords.css">
+    <link rel='icon' href='favicon.ico' type='image/x-icon'/>
+  </head>
+  <body onload="readBuzzword();">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSR6B9S"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+
+    <h1>COVID 19 Buzzword Bingo</h1>
+    <p>Click each word once you hear it. Once all 6 are checked...bingo!</p>
+
+<!-- Game starts here -->
+
+
+<ul id="words"  onClick="clickCounter();"></ul>
+
+<!-- New game -->
+
+<button id="clear" onClick="clearBuzzwordContainer();">Play again</button>
+<br/>
+<br/>
+<p><a href="/">Make your own buzzword game ></a> | <a href="/corporate-buzzwords.html"> Generic corporate buzzword bingo ></a></p>
+<p><a href="https://medium.com/@_chris_russell/buzzword-bingo-1cdb29e6509e">Why I built Buzzword Bingo</a></p>
+    <script type="text/javascript" src="covid19Buzzwords.js"></script>
+    <script type="text/javascript" id="cookiebanner"
+    src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js"
+    data-bg="#8A2BE2"></script>
+
+  </body>
+</html>
