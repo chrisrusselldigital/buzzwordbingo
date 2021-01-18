@@ -1,5 +1,5 @@
 var list = document.getElementsByTagName("li");
-var buzzwords = ["Aligned","Strategy","Resources","Stakeholder","Data science","Innovate"];
+var buzzwords = ["Aligned","Strategy","Resources","Stakeholder","Data science","Innovate","Deep dive","Omni-channel","Quick win"];
 var checks = [];
 
 window.dataLayer = window.dataLayer || [];

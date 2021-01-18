@@ -7,7 +7,7 @@ window.dataLayer = window.dataLayer || [];
 //Add the buzzwords
 function readBuzzword(keyword) {
 
-  if (buzzwordsContainer.length < 6) {
+  if (buzzwordsContainer.length < 9) {
 
     buzzwordsContainer.push(document.getElementById(keyword).value);
 
@@ -19,16 +19,17 @@ function readBuzzword(keyword) {
   }
 
   else {
-    alert("No more than 6 words");
+    alert("No more than 9 words");
   }
 }
 
 function strike(ele) {
-  if ((buzzwordsContainer.length === 6) && (ele.style.textDecoration !== "line-through")) {
+  if ((buzzwordsContainer.length === 9) && (ele.style.textDecoration !== "line-through")) {
     ele.style.textDecoration = "line-through";
     ele.style.color = "#8A2BE2";
   } else {
     ele.style.textDecoration = "normal";
+    console.log(buzzwordsContainer);
   }
 }
 
@@ -40,7 +41,7 @@ function clickCounter() {
     }
 
   }
-  if (checks.length === 6) {
+  if (checks.length === 9) {
     dataLayer.push({
       'buzzwords': buzzwordsContainer.toString(),
       'event': 'buzzwordsAdded'

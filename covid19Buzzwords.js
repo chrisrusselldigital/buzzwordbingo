@@ -1,5 +1,5 @@
 var list = document.getElementsByTagName("li");
-var buzzwords = ["Unprecedented times","Now more than ever","In it together","New normal","Lockdown","Tier 3"];
+var buzzwords = ["Unprecedented times","Now more than ever","In it together","New normal","Lockdown","Vaccination", "Home schooling", "Tea?", "30 minutes exercise"];
 var checks = [];
 
 window.dataLayer = window.dataLayer || [];
@@ -31,7 +31,7 @@ function clickCounter() {
     }
   }
 
-  if (checks.length === 6) {
+  if (checks.length === 9) {
     dataLayer.push({
       'buzzwords': buzzwords.toString(),
       'event': 'buzzwordsAdded'
