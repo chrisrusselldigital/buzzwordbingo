@@ -21,7 +21,7 @@ nav#topnav ul li a {
   text-decoration: none;
   color: white;
   display: block;
-  padding: .75em;
+  padding: .3em .75em .3em .75em;
 }
 
 h1 {
@@ -74,13 +74,16 @@ ul#words > li {
   margin-bottom: 30px;
 }
 
+div#button-wrapper {
+  text-align: center;
+}
 
 button#clear {
+  position: relative;
+  top: 50%;
   background-color: #8A2BE2;
   color: white;
   border: none;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 8px 10px;
+  padding: 8px 8px;
   cursor:pointer;
 }
