@@ -31,7 +31,7 @@ function clickCounter() {
     }
   }
 
-  if (checks.length === 6) {
+  if (checks.length === 9) {
     dataLayer.push({
       'buzzwords': buzzwords.toString(),
       'event': 'buzzwordsAdded'
