@@ -75,12 +75,12 @@ ul#words > li {
 }
 
 
-#clear {
-  position: fixed;
-  left: 50%;
-  background-color: #FF00FF;
+button#clear {
+  background-color: #8A2BE2;
   color: white;
   border: none;
+  margin-left: auto;
+  margin-right: auto;
   padding: 8px 10px;
-  margin: 4px 2px;
+  cursor:pointer;
 }
