@@ -59,7 +59,6 @@ function clickCounter() {
     console.log(dataLayer);
     alert("Buzzword bingo!");
   }
-
 }
 
 //Generate shareable URL
@@ -68,16 +67,30 @@ function urlGenerator() {
   let arr = [];
   buzzwordsContainer.forEach((i, index) => {arr.push(((index + 1) + "=" + i + "&"))});
   arr = arr.join("");
-  add = add.concat(arr).slice(0, -1);
-  shortUrl = encodeURIComponent(add);
-  return shortUrl;
+  shortUrl = encodeURIComponent(arr);
+  add = add.concat(shortUrl).slice(0, -1);
+  console.log(add);
+  return add;
 }
-
 
 
 //Populate shareable URL in form
 function populateUrl() {
   document.getElementById("gameUrl").value = urlGenerator();
+}
+
+//Copy shareable URL
+function copyUrl() {
+  /* Get the text field */
+  var copyText = document.getElementById("gameUrl");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+   /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+
 }
 
 
