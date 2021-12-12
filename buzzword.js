@@ -4,9 +4,9 @@ let checks = [];
 let onBuzzwordSubmit = document.getElementById('submitbutton');
 
 
-
 //Google Tag Manager Data Layer
 window.dataLayer = window.dataLayer || [];
+
 
 //Add the buzzwords
 function readBuzzword(keyword) {
@@ -68,11 +68,23 @@ function urlGenerator() {
   buzzwordsContainer.forEach((i, index) => {arr.push(((index + 1) + "=" + i + "&"))});
   arr = arr.join("");
   shortUrl = encodeURIComponent(arr);
-  add = add.concat(shortUrl).slice(0, -1);
-  console.log(add);
+  add = add.concat(shortUrl).slice(0, -3);
   return add;
 }
 
+//Decode shareable URL
+function decodeSharedUrl() {
+  let fullPage = document.URL;
+  fullPage = fullPage.replace("https://buzzwordbingo.uk/?","");
+  fullPage = decodeURIComponent(fullPage);
+  fullPage = fullPage.replace(/&|=/g, "");
+  fullPage = fullPage.replace(/[0-9]/g, ", ");
+  fullPage = fullPage.substring(2);
+  console.log(fullPage);
+  buzzwordsContainer = fullPage;
+  console.log(buzzwordsContainer.length);
+  console.log(buzzwordsContainer);
+}
 
 //Populate shareable URL in form
 function populateUrl() {
