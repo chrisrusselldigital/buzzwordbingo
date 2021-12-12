@@ -117,5 +117,5 @@ function copyUrl() {
 
 //New game
 function clearBuzzwordContainer() {
-  location.reload();
+  location.href = 'https://buzzwordbingo.uk';
 }
