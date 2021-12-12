@@ -7,6 +7,16 @@ let onBuzzwordSubmit = document.getElementById('submitbutton');
 //Google Tag Manager Data Layer
 window.dataLayer = window.dataLayer || [];
 
+function parseUrl() {
+  let url = window.location.href;
+  if (url.includes('https://buzzwordbingo.uk/?')) {
+    decodeSharedUrl();
+    for (var i in buzzwordsContainer) {
+      document.getElementById("words").innerHTML += "<li onclick=strike(this);>" + buzzwordsContainer[i] + "</div>" + "</li>";
+    }
+  }
+}
+
 
 //Add the buzzwords
 function readBuzzword(keyword) {
@@ -81,7 +91,7 @@ function decodeSharedUrl() {
   fullPage = fullPage.replace(/[0-9]/g, ", ");
   fullPage = fullPage.substring(2);
   console.log(fullPage);
-  buzzwordsContainer = fullPage;
+  buzzwordsContainer = fullPage.split(",");
   console.log(buzzwordsContainer.length);
   console.log(buzzwordsContainer);
 }
@@ -94,7 +104,7 @@ function populateUrl() {
 //Copy shareable URL
 function copyUrl() {
   /* Get the text field */
-  var copyText = document.getElementById("gameUrl");
+  let copyText = document.getElementById("gameUrl");
 
   /* Select the text field */
   copyText.select();
@@ -102,7 +112,6 @@ function copyUrl() {
 
    /* Copy the text inside the text field */
   navigator.clipboard.writeText(copyText.value);
-
 }
 
 
