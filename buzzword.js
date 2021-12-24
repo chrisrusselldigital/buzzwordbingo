@@ -28,7 +28,7 @@ function readBuzzword(keyword) {
     document.getElementById("words").innerHTML = '';
 
     for (var i in buzzwordsContainer) {
-      document.getElementById("words").innerHTML += "<li onclick=strike(this);>" + buzzwordsContainer[i] + "</div>" + "</li>";
+      document.getElementById("words").innerHTML.trim() += "<li onclick=strike(this);>" + buzzwordsContainer[i] + "</div>" + "</li>";
     }
     console.log(buzzwordsContainer.length);
     urlGenerator();
