@@ -23,7 +23,7 @@ function readBuzzword(keyword) {
 
   if (buzzwordsContainer.length < 9) {
 
-    buzzwordsContainer.push(document.getElementById(keyword).value);
+    buzzwordsContainer.push(document.getElementById(keyword).value.trim());
 
     document.getElementById("words").innerHTML = '';
 
